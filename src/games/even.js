@@ -1,4 +1,3 @@
-// import readlineSync from 'readline-sync';
 import startGame from '../index.js';
 
 const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min)) + min;
