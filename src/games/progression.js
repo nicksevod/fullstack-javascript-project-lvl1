@@ -4,7 +4,7 @@ const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min)) 
 
 const generateProgression = () => {
   const diff = generateRandomNum(1, 11);
-  const indexMissingNum = generateRandomNum(1, 11);
+  const indexMissingNum = generateRandomNum(1, 10);
   const firstNum = generateRandomNum(1, 30);
   const progression = [];
   for (let num = firstNum; num < firstNum + diff * 10; num += diff) {
