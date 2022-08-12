@@ -21,8 +21,8 @@ const startCalcGame = () => {
 
   const getCorrectAnswer = () => {
     const operator = operators[generateRandomNum(0, 3)];
-    const firstNum = generateRandomNum(1, 20);
-    const secondNum = generateRandomNum(1, 20);
+    const firstNum = generateRandomNum(1, 10);
+    const secondNum = generateRandomNum(1, 10);
     const question = `${firstNum} ${operator} ${secondNum}`;
     const correctAnswer = String(calculate(firstNum, secondNum, operator));
 

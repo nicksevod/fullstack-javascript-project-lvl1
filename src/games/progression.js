@@ -3,7 +3,7 @@ import startGame from '../index.js';
 const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
 const generateProgression = () => {
-  const diff = generateRandomNum(1, 11);
+  const diff = generateRandomNum(1, 6);
   const indexMissingNum = generateRandomNum(1, 10);
   const firstNum = generateRandomNum(1, 30);
   const progression = [];
