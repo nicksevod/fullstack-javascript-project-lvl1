@@ -4,7 +4,7 @@ const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min)) 
 
 const getGreatestCommonDivisor = (num1, num2) => {
   let maxDiv = 1;
-  for (let div = 2; div < num1; div += 1) {
+  for (let div = 2; div <= num1; div += 1) {
     if (num1 % div === 0 && num2 % div === 0) {
       maxDiv = div;
     }
